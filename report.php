@@ -23,8 +23,8 @@ foreach($db as $key => $value)
 
 $connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 ?>
+    
 <h1 class="text-center">Report</h1>
-
 <div class="text-center" style="margin-top:30px; border:1px solid #000;">
 <h3>TotalCalls</h3>
 <?php
