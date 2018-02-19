@@ -63,7 +63,7 @@ if (!mysql_select_db($database))
     <form action='<?php echo $_SERVER["PHP_SELF"];?>' method='post' enctype="multipart/form-data">
        <p><input type='file' name='sel_file' size='20'></p>
         <input type='submit' name='submit' value='submit'>
-        <h4>Data of All Records (Limit 10)</h4>
+        <h4>Data of All Records</h4>
     </form>
          <form action ="data.php" method="post" enctype="multipart/form-data">
         <input type='submit' name='submit' value='Please Click'>
